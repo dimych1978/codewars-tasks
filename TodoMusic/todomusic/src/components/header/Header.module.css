@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 48px;
+}
+.header > span {
+  height: 10px;
+  font-size: 14px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 10px;
+  padding: 5px;
+  color: cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}

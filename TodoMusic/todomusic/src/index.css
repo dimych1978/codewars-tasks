@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  background-color: #5f5151;
+  font-size: 16px;
+  color: coral;
+  text-align: center;
+  padding-top: 200px;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.6s, ease-in-out;
+}
+button:hover {
+  background-color: #e0e112a1;
+}
+input {
+  border: 1px solid transparent;
+  border-color: aqua;
+  border-radius: 4px;
+  padding: 3px 4px;
+
+  transition: 0.6s, ease-in-out;
+}
+input:focus {
+  background-color: #e0e112a1;
+}
